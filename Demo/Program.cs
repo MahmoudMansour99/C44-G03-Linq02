@@ -121,6 +121,17 @@ namespace Demo
             //    }
             //}
             #endregion
+
+            #region Partitioning Operator
+            //int[] Numbers = { 5, 4, 3, 2, 7, 8, 9 };
+
+            //var Result = ProductsList.Take(10);
+
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
         }
     }
 }
