@@ -1,6 +1,7 @@
 ﻿using Demo.Data;
 using System.Collections;
 using System.Linq;
+using System.Text.RegularExpressions;
 using static Demo.Data.ListGenerator;
 namespace Demo
 {
@@ -126,6 +127,20 @@ namespace Demo
             //int[] Numbers = { 5, 4, 3, 2, 7, 8, 9 };
 
             //var Result = ProductsList.Take(10);
+
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
+
+            #region Let and Into
+            //List<string> Names = new List<string>() { "Omar", "Mohamed", "Sally", "Mohamed", "Ali" };
+
+            //var Result = from N in Names
+            //             let NoVowelNames = Regex.Replace(N, "[AOUIEaouie]", string.Empty)
+            //             where NoVowelNames.Length > 3
+            //             select NoVowelNames;
 
             //foreach (var item in Result)
             //{
