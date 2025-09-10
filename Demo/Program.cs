@@ -84,6 +84,14 @@ namespace Demo
 
             #endregion
 
+            #region Quantifier Operator
+            //var Result = ProductsList.Any();
+            //var Result = ProductsList.Any(P => P.UnitsInStock == 0);
+
+            //var Result = ProductsList.All();
+            //Console.WriteLine(Result);
+            #endregion
+
 
         }
     }
