@@ -43,7 +43,19 @@ namespace Demo
             //}
             #endregion
 
+            #region Generation Operators - Deffered Execution
+            //var Result = Enumerable.Range(0, 100);
 
+            //Result = Enumerable.Repeat(2, 100);
+            //var Result = Enumerable.Repeat(new Product(), 100);
+
+            //var Result = Enumerable.Empty<Product>();
+
+            //foreach (var item in Result)
+            //{
+                //Console.WriteLine(item);
+            //}
+            #endregion
         }
     }
 }
