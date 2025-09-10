@@ -1,5 +1,6 @@
 ﻿using Demo.Data;
 using System.Collections;
+using System.Linq;
 using static Demo.Data.ListGenerator;
 namespace Demo
 {
@@ -53,9 +54,37 @@ namespace Demo
 
             //foreach (var item in Result)
             //{
-                //Console.WriteLine(item);
+            //Console.WriteLine(item);
             //}
             #endregion
+
+            #region Set Operators [Union Family] - Deffered Execution
+            //var Seq01 = Enumerable.Range(0, 100);
+            //var Seq02 = Enumerable.Range(50, 100);
+
+            //foreach (var item in Seq01)
+            //{
+            //    Console.Write($"{item} - ");
+            //}
+
+            //Console.WriteLine();
+            //foreach (var item in Seq01)
+            //{
+            //    Console.Write($"{item} - ");
+            //}
+
+            //var Seq03 = Seq01.Union(Seq02);
+            //var Seq04 = Seq01.Concat(Seq02);
+            //var Seq05 = Seq01.Distinct(Seq02);
+
+            //foreach (var item in Seq05)
+            //{
+            //    Console.Write($"{item} - ");
+            //}
+
+            #endregion
+
+
         }
     }
 }
