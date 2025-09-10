@@ -92,7 +92,19 @@ namespace Demo
             //Console.WriteLine(Result);
             #endregion
 
+            #region Zipping Operator - ZIP
+            //string[] Names = { "Ahmed", "Mona", "Aya", "Ali", "Mohamed" };
+            //int[] Numbers = Enumerable.Range(1, 10).ToArray();
+            //char[] chars = {'A', 'B', 'C', 'D', 'E'};
 
+
+            ////var Result = Names.Zip(Numbers);
+            //var Result = Names.Zip(Numbers, (Name, Number) => new { index = Number, Name = Name });
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
         }
     }
 }
