@@ -105,6 +105,22 @@ namespace Demo
             //    Console.WriteLine(item);
             //}
             #endregion
+
+            #region Grouping Operators
+            //var Result = from P in ProductsList
+            //             group P by P.Category
+            //             into Category
+            //             where Category.Count() > 10
+            //             select Category;
+
+            //foreach (var Cat in Result)
+            //{
+            //    foreach (var item in Cat)
+            //    {
+            //        Console.WriteLine(item);
+            //    }
+            //}
+            #endregion
         }
     }
 }
